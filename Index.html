@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Queensdale - Conoce tu reina</title>
+</head>
+<body>
+
+    <div class="FB">
+        <h2 id="logo">Queensdale</h2>
+        <h4 id="fr1">Conecta con mujeres de todo el mundo</h4>
+    </div>
+    
+
+
+    <div class="Login-box">
+        <form method="POST">
+            <h1>Ingresa</h1>
+            <!-- Username -->
+            <label for="email"></label>
+            <input type="email" placeholder="Correo Electronico" size="35" maxlength="300" class="in"><br>
+            <span class="focus-border"></span>
+            <!-- Password -->
+            <br><label for="password"></label>
+            <input type="password" placeholder="Contraseña" size="35" maxlength="15" class="in2">
+            <span class="focus-border"></span>
+            <span id="spanMostrar" class="form-clear d-none"><i id="iconMostrar" class="material-icons mdc-text-field__icon">visibility</i></span>
+            <div id="lower">
+                <input type="checkbox"><label class="check" for="checkbox">Mantener conectado</label>
+                <!-- Submit Button -->
+                <input type="submit" value="Entrar" class="btn">
+            </div>
+            <p><a class="forget" href="#">Olvidaste tu contraseña?</a>
+            <p><input type="submit" Value="Crear Cuenta Nueva" class="btn1">
+           
+        </form>       
+    </div>
+    <script src="Query.js">
+    </script>
+     <script>mdc.textField.MDCTextField.attachTo(document.querySelector('.mdc-text-field'));</script>
+</body>
+
+<footer>
+
+    <div class="pie">
+
+    </div>
+
+</footer>
+</html>
